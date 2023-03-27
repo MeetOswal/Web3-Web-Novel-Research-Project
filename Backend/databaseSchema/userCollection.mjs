@@ -10,16 +10,13 @@ const userSchema = new mongoose.Schema({
         type : String,
         unique : true
     },
-    userBookmark : [{
-        novel_id : String
-    }],
+    userBookmark : Array,
     userSubscription : [{
-        novel_id : String
+        novel_id : String,
+        endDate : Date
     }],
-    userWork: [{
-        novel_id : String
-    }]
-})
+    userWork: Array
+}) 
 
 const USER = new mongoose.model("user", userSchema);
 
