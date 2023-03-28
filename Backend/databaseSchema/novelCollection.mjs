@@ -5,18 +5,30 @@ const novelSchema = new mongoose.Schema({
     novelDescription : String,
     latestUpdate : Date,
     novelAddress : String,
-    tags: Array,
+    genre: String,
     writer : String,
     language : String,
-    freeChapters: Number,
-    review : Number,
-    reviewBy : Number,
+    freeChapters: {
+        type : Number,
+        default: 0
+    },
+    review : {
+        type : Number,
+        default : 0
+    },
+    reviewBy : {
+        type : Number,
+        defaut: 0
+    },
     noveImage : String,
     releaseDate : {
         type: Date,
         default : Date.now()
     },
-    subscriptionFee : Number,
+    subscriptionFee : {
+        type : Number,
+        default : 0
+    },
     chapters : [{
         chapterTitle : String,
         index : Number

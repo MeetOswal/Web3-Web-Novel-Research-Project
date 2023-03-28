@@ -4,7 +4,13 @@ import createUser from "./user/user.mjs";
 import updateUser from "./user/updateUser.mjs";
 import bookmarkUpdate from "./user/toBookmark.mjs";
 import subscribe from "./user/subscribe.mjs";
-
+import deleteSubscribeMiddleware from "./user/deleteSubscribes.mjs";
+import createNovel from "./novel/createNewNovel.mjs";
+import addChapter from "./novel/addChapter.mjs";
+import addFees from "./novel/addSubscriptionFee.mjs";
+import addPreview from "./novel/addFreeChapter.mjs";
+import addReview from "./novel/updateReview.mjs";
+import chapterFile from "./novel/chapterFile.mjs";
 const PORT = 3000;
 
 const app = express();
@@ -26,6 +32,27 @@ app.use(updateUser);
 app.use(bookmarkUpdate);
 
 app.use(subscribe);
+
+app.use(createNovel);
+
+app.use(addChapter);
+
+app.use(addFees);
+
+app.use(addPreview);
+
+app.use(addReview);
+
+app.use(chapterFile);
+
+
+let timer = 0;
+setInterval(deleteSubscribe, (timer * 3600000 ));
+
+async function deleteSubscribe(){
+  await deleteSubscribeMiddleware();
+  timer = 1;
+}
 
 } catch (error) {
   console.log(error);

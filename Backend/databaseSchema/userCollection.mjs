@@ -15,7 +15,11 @@ const userSchema = new mongoose.Schema({
         novel_id : String,
         endDate : Date
     }],
-    userWork: Array
+    userWork: Array,
+    userReview: [{
+        novelAddress : String,
+        review : Number
+    }]
 }) 
 
 const USER = new mongoose.model("user", userSchema);

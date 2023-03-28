@@ -39,12 +39,11 @@ app.patch("/subscribe/:address", async (req, res) => {
     let date;
     date = new Date;
     date = new Date(date.setMonth(date.getMonth() + parseInt(req.query.time)));
-    console.log(date);
+
     const object = {
         novel_id: req.query.novel_id,
         endDate: date
       };
-      console.log(object);
       await USER.updateOne(
         { userAddress: req.params.address },
         {
