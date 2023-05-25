@@ -11,7 +11,7 @@ import addFees from "./novel/addSubscriptionFee.mjs";
 import addPreview from "./novel/addFreeChapter.mjs";
 import addReview from "./novel/updateReview.mjs";
 import chapterFile from "./novel/chapterFile.mjs";
-const PORT = 3000;
+const PORT = 5000;
 
 const app = express();
 

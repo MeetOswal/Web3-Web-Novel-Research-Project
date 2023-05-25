@@ -10,12 +10,12 @@ const userSchema = new mongoose.Schema({
         type : String,
         unique : true
     },
-    userBookmark : Array,
+    userBookmark : Array,// store novel_id
     userSubscription : [{
         novel_id : String,
         endDate : Date
     }],
-    userWork: Array,
+    userWork: Array, // store novel_id
     userReview: [{
         novelAddress : String,
         review : Number

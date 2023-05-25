@@ -1,0 +1,144 @@
+Main Contract Deployment(Sepolia) =>
+Gas =  1627426
+Time = 17s
+Fee = 4068565 Gwei
+Gas Price = 2.500000009 Gwei
+
+Create New Novel => gas = 942,008 transaction fee = 2,355,020 Gwei
+Blockchain(Sepolia)= 17019ms = 17.019s
+Store Document on MongoDB = 25 ms
+
+Upload New Chapter => gas = 160,792 transaction fee = 401,980 Gwei
+Upload File on IPFS = 26.28s
+Upload IPFS link to Blockchain = 19498ms = 19.498s
+Upload to MongDB = 27ms
+
+Set Fees => gas = 46,142  transaction fee = 115,355 Gwei
+Blockchain = 26199ms = 26.199s
+Update to MongoDb = 20ms
+
+Set Free Chapter => gas = 46,184 transaction fee = 115,460 Gwei
+Blockchain = 11055ms = 11.05s
+Update to MongoDB = 24ms
+
+Subscribe => gas used = 81630 transaction fee = 204,075 Gwei
+Blockchain = 24888ms = 24.88s
+Update to MongoDB = 38ms
+
+Fetching Chapter =>
+MongoDB = 20ms
+Blockchain = 234ms = 0.234s
+IPFS Fetch = 13s
+
+**********************************************************************************
+Main Contract Deployment(Goerli) =>
+Gas =  1627426
+Time = 17s
+Fee = 146100608 Gwei
+Gas Price = 89.774040911 Gwei 
+
+Create New Novel => gas = 942,032 transaction fee = 71,627,710 Gwei
+Blockchain(Goerli)= 16503ms = 16.503s
+Store Document on MongoDB = 25 ms
+
+Upload New Chapter => gas = 160,792 transaction fee = 11,277,370 Gwei
+Upload File on IPFS = 26.28s
+Upload IPFS link to Blockchain = 15867ms = 15.867s
+Upload to MongDB = 27ms
+
+Set Fees => gas = 46,142  transaction fee = 3,184,800 Gwei
+Blockchain = 26934ms = 26.934s
+Update to MongoDb = 20ms
+
+Set Free Chapter => gas = 46,184 transaction fee = 4,041,370 Gwei
+Blockchain = 28266ms = 28.26s
+Update to MongoDB = 24ms
+
+Subscribe => gas used = 79130 transaction fee = 7,395,200 Gwei
+Blockchain = 19128ms = 19.12s
+Update to MongoDB = 38ms
+
+Fetching Chapter =>
+MongoDB = 20ms
+Blockchain = 226ms = 0.226s
+IPFS Fetch = 13s
+
+**********************************************************************************
+Main Contract Deployment(Ganache) =>
+Gas =  1626968
+Time = 17s
+Fee = 5,171,099 Gwei
+Gas Price = 3.178365856 Gwei 
+
+Create New Novel => gas = 924576 transaction fee = 2,347,100 Gwei
+Blockchain(Ganache)= 2621ms = 2.621s
+Store Document on MongoDB = 25 ms
+
+Upload New Chapter => gas = 160,792 transaction fee = 405,300 Gwei
+Upload File on IPFS = 26.28s
+Upload IPFS link to Blockchain = 2289ms = 2.28s
+Upload to MongDB = 27ms
+
+Set Fees => gas = 46,142  transaction fee = 115,940 Gwei
+Blockchain = 2414ms = 2.41s
+Update to MongoDb = 20ms
+
+Set Free Chapter => gas = 46,184 transaction fee = 115,980 Gwei
+Blockchain = 2113ms = 2.11s
+Update to MongoDB = 24ms
+
+Subscribe => gas used = 79,130 transaction fee = 198,600 Gwei
+Blockchain = 2311ms = 2.31s
+Update to MongoDB = 38ms
+
+Fetching Chapter =>
+MongoDB = 20ms
+Blockchain = 24ms
+IPFS Fetch = 13s
+
+**********************************************************************************
+New Novel Deployment(Goerli) =>
+
+Create New Novel => gas = 924,932 transaction fee = 40,936,020 Gwei
+Blockchain(Goerli)= 25247ms = 25.24s
+
+Create New Novel => gas = 924,932 transaction fee = 43,018,910 Gwei
+Blockchain(Goerli)= 49619ms = 49.61s
+
+Create New Novel => gas = 942,032 transaction fee = 48,213,220 Gwei
+Blockchain(Goerli)= 15498ms = 15.49s
+
+Create New Novel => gas = 942,032 transaction fee = 41,329,630 Gwei
+Blockchain(Goerli)= 52480ms = 52.48s
+
+**********************************************************************************
+New Novel Deployment(Sepolia) =>
+
+Create New Novel => gas = 942,032 transaction fee = 2,312,330 Gwei
+Blockchain(Sepolia)= 14400ms = 14.40s
+
+Create New Novel => gas = 942,032 transaction fee = 2,312,330 Gwei
+Blockchain(Sepolia)= 14815ms = 14.81s
+
+Create New Novel => gas = 942,032 transaction fee = 2,312,330 Gwei
+Blockchain(Sepolia)= 14968ms = 14.96s
+
+Create New Novel => gas = 942,032 transaction fee = 2,312,330 Gwei
+Blockchain(Sepolia)= 14763ms = 14.76s
+
+**********************************************************************************
+New Novel Deployment(Ganache) =>
+
+Create New Novel => gas = 924576 transaction fee = 2,110,456 Gwei
+Blockchain= 2662ms = 2.62s
+
+Create New Novel => gas = 924576 transaction fee = 2,500,145 Gwei
+Blockchain= 3557ms = 3.57s
+
+Create New Novel => gas = 924576 transaction fee = 2,365,009 Gwei
+Blockchain= 3524ms = 3.52s
+
+Create New Novel => gas = 924576 transaction fee = 2,347,110 Gwei
+Blockchain= 3475ms = 3.47s
+
+
